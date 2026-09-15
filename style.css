@@ -1,0 +1,17 @@
+body{
+    color: white;
+}
+body{
+background: #080174;
+}
+header{
+    background: #070157;
+}
+section h2, section p, div p{
+    color: #cdcdce;
+}
+
+button, div{
+    border-radius: 6px;
+    cursor: pointer;
+}
