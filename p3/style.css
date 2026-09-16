@@ -1,0 +1,144 @@
+.ads{
+    background: #027008;
+    color: #fff;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+}
+header h2{
+    color: #015f06;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+}
+
+header a:hover{
+    color: #015f06;
+}
+
+header button{
+    background: white;
+    border: none;
+}
+
+#section{
+    background: #ebfdec !important;
+    border: none !important;
+    padding-left: 3rem !important;
+    margin-bottom: 2rem;
+    padding: 3rem !important;
+}
+h1 {
+    color: #013f04 !important;
+    font-size: 50px !important;
+    font-weight: bold !important;
+}
+
+.comprar{
+    background: #027008;
+    text-decoration: none;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    transition: background 0.3s;
+}
+
+.comprar:hover{
+    background: #013f04;
+}
+
+h2{
+    color: #013f04 ;
+    text-align: center;
+}
+
+#main{
+    gap:20px !important;
+    justify-items: center;
+    margin-bottom: 1rem;
+}
+.card{
+ padding-top: 0.5rem;   
+}
+.precio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.precio p{
+    color: #027008 !important;
+    font-weight: bold;
+}
+
+.precio a{
+    color: white;
+    transition: color 0.3s;
+    background: #027008;
+    border: none;
+}
+
+.precio a:hover{
+    background: #013f04;
+}
+
+
+#footer{
+    gap: 20px !important;
+    background: #013f04 !important;
+    padding-top: 0.5rem;
+}
+
+#footer .card{
+    background: #013f04;
+    border: none;
+    color: white;
+}
+
+#footer .card li{
+    list-style: none;
+}
+
+#footer .card li a{
+    text-decoration: none;
+    color: white;
+}
+
+hr{
+    background: white;
+    height: 3px;
+}
+
+.derechos{
+    text-align: center;
+    color: white;
+}
+
+@media (max-width:769px){
+    header{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+@media (max-width:480px){
+    ul{
+        flex-direction: column;
+        gap: 20px;
+    }
+}

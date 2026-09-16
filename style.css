@@ -2,10 +2,25 @@ body{
     color: white;
 }
 body{
-background: #080174;
+background: #0a0184;
 }
 header{
     background: #070157;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 section h2, section p, div p{
     color: #cdcdce;
@@ -15,3 +30,35 @@ button, div{
     border-radius: 6px;
     cursor: pointer;
 }
+
+#proyectos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+@media (max-width:769px){
+    #header{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+@media (max-width:480px){
+    ul{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+@media (max-width:769px){
+    section{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 769px){
+    #proyectos{
+        grid-template-columns: 1fr;
+    }
+}
+
