@@ -2,10 +2,10 @@ body{
     color: white;
 }
 body{
-background: #0a0184;
+background: #13192b;
 }
 header{
-    background: #070157;
+    background: #030712;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
